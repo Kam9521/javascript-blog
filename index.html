@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>JavaScript Blog</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <div class="container">
+
+    <header>
+      <h1>My Blog</h1>
+    </header>
+
+    <div class="row">
+
+      <!-- LEFT COLUMN - TITLES -->
+      <div class="col left">
+        <h2>Articles</h2>
+        <ul class="titles">
+          <li><a href="#article-1" class="active"><span>Article 1</span></a></li>
+          <li><a href="#article-2"><span>Article 2</span></a></li>
+          <li><a href="#article-3"><span>Article 3</span></a></li>
+        </ul>
+      </div>
+
+      <!-- MIDDLE COLUMN - POSTS -->
+      <div class="col middle posts">
+
+        <article id="article-1" class="post active">
+          <h2>Article 1</h2>
+          <p>This is article 1 content.</p>
+        </article>
+
+        <article id="article-2" class="post">
+          <h2>Article 2</h2>
+          <p>This is article 2 content.</p>
+        </article>
+
+        <article id="article-3" class="post">
+          <h2>Article 3</h2>
+          <p>This is article 3 content.</p>
+        </article>
+
+      </div>
+
+      <!-- RIGHT COLUMN - TAGS & AUTHORS -->
+      <div class="col right">
+        <h2>Tags</h2>
+        <ul class="tags">
+          <li><a href="#">tag1</a></li>
+          <li><a href="#">tag2</a></li>
+        </ul>
+
+        <h2>Authors</h2>
+        <ul class="authors">
+          <li><a href="#">Author 1</a></li>
+          <li><a href="#">Author 2</a></li>
+        </ul>
+      </div>
+
+    </div>
+  </div>
+
+  <script src="js/script.js"></script>
+</body>
+</html>
