@@ -1,7 +1,70 @@
+/* === ARTICLES === */
 .post {
   display: none;
 }
 
 .post.active {
   display: block;
+}
+
+/* === TAG CLOUD SIZES === */
+.tag-size-1 {
+  font-size: 0.8rem;
+}
+
+.tag-size-2 {
+  font-size: 1rem;
+}
+
+.tag-size-3 {
+  font-size: 1.2rem;
+}
+
+.tag-size-4 {
+  font-size: 1.4rem;
+}
+
+.tag-size-5 {
+  font-size: 1.6rem;
+}
+
+/* === TAGS LIST (RIGHT COLUMN) === */
+.tags.list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.tags.list li {
+  display: inline;
+}
+
+/* === AUTHORS LIST === */
+.authors.list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.authors.list li {
+  margin-bottom: 4px;
+}
+
+/* === LINKS === */
+a {
+  text-decoration: none;
+  color: #333;
+}
+
+a:hover {
+  color: #007bff;
+}
+
+/* === ACTIVE STATE === */
+a.active {
+  font-weight: bold;
+  color: red;
 }
